@@ -1,0 +1,14 @@
+body{
+	background-color: black;
+	height: auto;
+	
+}
+.pFooter{
+	position: absolute;
+	transform: translateY(-50%);
+	right: 50%;
+	color: white;
+}
+h1{
+	color: white;
+}

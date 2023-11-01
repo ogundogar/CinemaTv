@@ -1,0 +1,27 @@
+.slider-resim{
+	position: relative;
+	display: inline-block;
+}
+
+.sol-ok, .sag-ok {
+	position: absolute;
+	top: 50%;
+	/*transform: translateY(-50%);*/
+	font-size: 30px;
+  }
+
+  
+  .sol-ok {
+	left: 0;
+  }
+  
+  .sag-ok {
+	right: 0;
+  }
+
+/*.nokta{
+	position: absolute;
+	top: 90%;
+	transform: translateY(-50%);
+	font-size: 15px;
+}*/

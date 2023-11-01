@@ -1,0 +1,23 @@
+<div class="m-2">
+	<div id="cerceve" class="container">
+        <img id="imgResim" src={{resim}} alt="Resim">
+		<form [formGroup]="frm">
+			<p id="yazi" style="color: white; font-size: 50px;">{{tahmin}}</p>
+			<p id="can" style="font-size: 20px;">❤️❤️❤️❤️❤️</p>
+			<input id="textTahmin"type="text" placeholder="Film Tahmininiz..." formControlName="tahmin" (keyup)="arama()" autocomplete="off">
+			<div id="onerilen"><ul id="arama-list"></ul></div>
+
+			<div *ngIf="devam; else elseDogru">
+				<button id="btn" (click)="oyunaDevamEt()" style="background-color: green;">Devam Et</button>
+			</div>
+			<ng-template #elseDogru>
+				<div *ngIf="kaybettin; else elseKaybetti">
+					<button id="btn" (click)="oyunaBasla()" style="background-color: red;">Tekrar Oyna</button>
+				</div>
+				<ng-template #elseKaybetti>
+					<button id="btn" (click)="onSubmit()">Tamam</button>
+				</ng-template>
+			</ng-template>
+		</form>
+    </div>
+</div>

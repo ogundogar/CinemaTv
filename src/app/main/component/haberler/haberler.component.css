@@ -1,0 +1,5 @@
+.horizontal-line {
+  width: 100%; /* Sayfa genişliği */
+  height: 4px; /* Çizgi yüksekliği */
+  background-color: #000; /* Çizgi rengi */
+}

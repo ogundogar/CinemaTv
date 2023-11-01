@@ -1,0 +1,18 @@
+.horizontal-line {
+	width: 100%; /* Sayfa genişliği */
+	height: 4px; /* Çizgi yüksekliği */
+	background-color: #000; /* Çizgi rengi */
+  }
+
+
+.yeni{
+	border: 1px solid #000; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	color: rgb(0, 0, 0);
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
