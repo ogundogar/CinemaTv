@@ -5,21 +5,21 @@
 	font-family: "Poppins",sans-serif;
 }
 .body{
-	
 	border: 1px solid white;
-    box-shadow: 0px 0px 5px white;
+	box-shadow: 0px 0px 5px white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background: url("https://4kwallpapers.com/images/walls/thumbs_3t/11338.jpg") no-repeat;
+	background: url("https://smd-cms.nasa.gov/wp-content/uploads/2023/06/webb-flickr-52259221868-30e1c78f0c-4k-jpg.webp") no-repeat;
 	background-size: cover;
 	background-position: center;
+	border-radius: 10px;
 }
 .wrapper {
 	background: transparent;
 	border:2px solid rgba(255, 255, 255, .2);
-	backdrop-filter: blur(20px);
+	backdrop-filter: blur(10px);
 	box-shadow: 0 0 5px white;
 	width: 420px;
 	color: white;
@@ -62,7 +62,6 @@ margin: 30px 0;
 .remember-forgot label input{
 	accent-color: white;
 	margin-right: 3px;
-
 }
 
 .remember-forgot a{
